@@ -3,9 +3,17 @@
     width: 80%;
     background-color: #fff;
     display: flex;
+    align-items: center;
     margin-left: 10%;
     margin-right: 10%;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: block;
+       
+    }
 }
 
 .box_container {
@@ -18,6 +26,14 @@
     justify-content: center;
     text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    .box_container {
+        width:100%;
+        height:25%;
+        
+    }
+}
+
 .h1tag{
     text-align: center;
     margin-top: 50px;
